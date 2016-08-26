@@ -74,7 +74,7 @@ export class CityDetailComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.forEach((params: Params) => {
       let id = +params['id'];
-      this.cityService.getCity(id).then(value => this.city = value);
+      //this.cityService.getCity(id).then(value => this.city = value);
 
 
 
